@@ -122,4 +122,42 @@ git commit -a -m "index mod"
 git push
 git pull На іншому компі щоб отримати зміни які були внесені з іншого пристрою
 
-		
+Умови
+		if (2*4 == 8){
+			console.log("Правильно")
+		}		  - Умова виконалася
+
+
+	let num = 49;
+
+	if (num < 50){
+		console.log("Неверно")    
+	} else if (num > 100){
+		console.log("Много")
+	} else{
+		console.log("Верно")
+	};
+
+	let num = 49;
+	(num == 50) ? console.log("Верно!") : console.log("Неверно");
+
+	let num = 49;
+	switch (num) {
+		case num < 49:
+			console.log("неверно");
+			break;
+		case num  > 100:
+			console.log("Много");
+			break; pln 
+		case num  > 80:
+			console.log("EЩЕ Много");
+			break;
+		case 50: //Означає case == 50
+			console.log("Верно");
+			break;
+		default:
+			console.log("Что то пошло не так");
+			break;
+	}
+
+
