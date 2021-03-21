@@ -1,6 +1,8 @@
 //let div = document.createElement('div')
 let block = document.querySelector('.menu'), 
     div = document.createElement('li'),  
+	ul = document.querySelector('ul'), 
+	text2 = document.createTextNode('Пятый пункт'),
     text = document.createTextNode('Пятый пункт');
 
 div.classList.add('menu-item');
@@ -18,5 +20,9 @@ column[0].style.background = 'url(img/apple_true.jpg)';
 original2.textContent = 'Get nice cheese';
 //parentNode.replaceChild(original2, original);
 
-console.log(original);
-elem.appendChild(узел);
+
+//elem.appendChild(узел);
+//ul.firstElementChild.style.background = ‘purple’;
+//parentNode.replaceChild(text2, original);
+text2.remove(text)
+console.log(text2);
