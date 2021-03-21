@@ -9,10 +9,14 @@ block.appendChild(div);
 
 div.appendChild(text);
 
+let column = document.getElementsByTagName('body'),
+	original = document.getElementById('title'),
+	//original3 = document.createElementId('li2'), 
+	original2 = (''); 
+column[0].style.background = 'url(img/apple_true.jpg)';
 
+original2.textContent = 'Get nice cheese';
+//parentNode.replaceChild(original2, original);
 
-//document.ul.replaceChild(menu-item[1], menu-item[2]);
-
-//.menu.replaceChild(menu-item[2], menu-item[3]);
-
-let oldChild = menu.replaceChild(menu-item[1], menu-item[2]);
+console.log(original);
+elem.appendChild(узел);
