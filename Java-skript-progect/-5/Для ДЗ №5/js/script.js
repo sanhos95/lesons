@@ -1,7 +1,7 @@
 //let div = document.createElement('div')
 let block = document.querySelector('.menu'), 
     div = document.createElement('li'),  
-	ul = document.querySelector('ul'), 
+	ul = document.querySelectorAll('ul'), 
 	text2 = document.createTextNode('Пятый пункт'),
     text = document.createTextNode('Пятый пункт');
 

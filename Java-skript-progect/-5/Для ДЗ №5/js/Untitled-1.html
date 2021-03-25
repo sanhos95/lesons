@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+
+  ▶ ▼ Сладости (нажми меня)!
+  <ul>
+    <li>Пирожное</li>
+    <li>Пончик</li>
+    <li>Мёд</li>
+  </ul>
+<script>
+  let body = document.querySelectorAll('body'),
+        ul = document.getElementsByTagName('ul'); 
+        ul.onclick = function() {console.log("hello");};
+</script>
+</body>
+</html> -->
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <input type="button" id="hider" value="Нажмите, чтобы спрятать текст" />
+
+  <div id="text">Текст</div>
+
+  <script>
+    let txt = document.getElementById('text'),
+        hinder = document.getElementById('hider'); 
+    console.log(txt);
+    hinder.onclick = function() { txt.style.display = "none"; }
+  </script>
+
+</body>
+</html>
