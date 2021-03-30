@@ -1,9 +1,10 @@
 //let div = document.createElement('div')
 let block = document.querySelector('.menu'), 
     div = document.createElement('li'),  
-	ul = document.querySelectorAll('ul'), 
+	ul = document.querySelector('ul'), 
 	text2 = document.createTextNode('Пятый пункт'),
     text = document.createTextNode('Пятый пункт');
+
 
 div.classList.add('menu-item');
 
@@ -11,18 +12,21 @@ block.appendChild(div);
 
 div.appendChild(text);
 
-let column = document.getElementsByTagName('body'),
-	original = document.getElementById('title'),
-	//original3 = document.createElementId('li2'), 
-	original2 = (''); 
 column[0].style.background = 'url(img/apple_true.jpg)';
 
-original2.textContent = 'Get nice cheese';
-//parentNode.replaceChild(original2, original);
+original.textContent = text2;
 
+list2[2] = 'Груша';
 
-//elem.appendChild(узел);
-//ul.firstElementChild.style.background = ‘purple’;
-//parentNode.replaceChild(text2, original);
-text2.remove(text)
-console.log(text2);
+list2[1].style.background = "red";
+list2[2].style.background = "green";
+
+// listNev = list2[1];
+// list2[1] = list2[2];
+// list2[1] = 'Груша';
+
+console.log(listNev);
+console.log(list2[1]);
+//qestion.textContent = text3;
+console.log(list2);
+adv.remove(adv);
